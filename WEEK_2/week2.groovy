@@ -9,3 +9,6 @@ class Constants {
     static final String LAST_NAME = "Trentham"
     }
     
+Integer leet = 1337
+
+BigDecimal leetDivided = leet / 23
