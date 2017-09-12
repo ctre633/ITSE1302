@@ -12,3 +12,9 @@ class Constants {
 Integer leet = 1337
 
 BigDecimal leetDivided = leet / 23
+
+println leet * 24
+println leetDivided + 83485
+println leet % 3
+println leetDivided ** 8
+println leet / 14
