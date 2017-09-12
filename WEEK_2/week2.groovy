@@ -18,3 +18,8 @@ println leetDivided + 83485
 println leet % 3
 println leetDivided ** 8
 println leet / 14
+
+println "The first name constant is ${FIRST_NAME}"
+println "The last name constant is ${LAST_NAME}"
+println "The original variable is ${leet}"
+println "The divided variable is ${leetDivided}"
