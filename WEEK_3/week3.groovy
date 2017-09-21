@@ -24,13 +24,13 @@ studentGrades.each(){name, grades ->    //begin loop through grades
     if(average >= 90 && average <= 100){
         letterGrade = 'A'
         }
-    else if(average >= 80 && average < 90){
+    else if(average >= 80 && average < 89.99){
         letterGrade = 'B'
         }
-    else if(average >= 70 && average < 80){
+    else if(average >= 70 && average < 79.99){
         letterGrade = 'C'
         }
-    else if(average >= 60 && average < 70){
+    else if(average >= 60 && average < 69.99){
         letterGrade = 'D'
         }
     else if(average < 60){
