@@ -19,6 +19,23 @@ studentGrades.each(){name, grades ->    //begin loop through grades
     //calculate average of each students grades
     float average = grades.sum() / grades.size()
     
-    println "${name} - ${average}"    //print name - average - lettergrade
-    println grades
+    //create if/else to determine lettergrade
+    String letterGrade
+    if(average >= 90 && average <= 100){
+        letterGrade = 'A'
+        }
+    else if(average >= 80 && average < 90){
+        letterGrade = 'B'
+        }
+    else if(average >= 70 && average < 80){
+        letterGrade = 'C'
+        }
+    else if(average >= 60 && average < 70){
+        letterGrade = 'D'
+        }
+    else if(average < 60){
+        letterGrade = 'F'
+        }
+    
+    println "${name} - ${average} - ${letterGrade}"    //print name - average - lettergrade
     }
