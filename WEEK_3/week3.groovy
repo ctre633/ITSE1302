@@ -6,7 +6,7 @@ along with the correct letter grade and student name to the console.
 */
 
 //Create map of students with list of grades
-Map<String, List> studentGrades = [
+Map studentGrades = [
     'Chris Trentham' : [99, 87, 90, 100, 80],
     'Andrew Thompson' : [50, 0, 90, 70, 70],
     'Jon Doe' : [100, 87, 91, 90, 100],
@@ -14,8 +14,11 @@ Map<String, List> studentGrades = [
     'Jose Silva' : [0, 40, 80, 100, 100]
 ]
 
-//Create output for students and their average grade
-studentGrades.each(){name, grade ->
-    println name
-    println grade
-}
+studentGrades.each(){name, grades ->    //begin loop through grades
+
+    //calculate average of each students grades
+    float average = grades.sum() / grades.size()
+    
+    println "${name} - ${average}"    //print name - average - lettergrade
+    println grades
+    }
