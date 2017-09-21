@@ -7,8 +7,8 @@ along with the correct letter grade and student name to the console.
 
 //Create map of students with list of grades
 Map studentGrades = [
-    'Chris Trentham' : [99, 87, 90, 100, 80],
-    'Andrew Thompson' : [50, 0, 90, 70, 70],
+    'Chris Trentham' : [99, 87, 90, 100, 80, 91, 95],
+    'Andrew Thompson' : [50, 0, 90, 70, 70, 58, 55, 80],
     'Jon Doe' : [80, 87, 91, 80, 85],
     'Jane Doge' : [86, 70, 78, 73, 78],
     'Jose Silva' : [0, 40, 80, 100, 100]
