@@ -9,8 +9,8 @@ along with the correct letter grade and student name to the console.
 Map studentGrades = [
     'Chris Trentham' : [99, 87, 90, 100, 80],
     'Andrew Thompson' : [50, 0, 90, 70, 70],
-    'Jon Doe' : [100, 87, 91, 90, 100],
-    'Jane Doge' : [86, 10, 48, 43, 48],
+    'Jon Doe' : [80, 87, 91, 80, 85],
+    'Jane Doge' : [86, 70, 78, 73, 78],
     'Jose Silva' : [0, 40, 80, 100, 100]
 ]
 
